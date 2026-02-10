@@ -1,4 +1,4 @@
-# FastAPI ML Pipeline
+# Introduction à FastAPI
 
 API REST construite avec FastAPI qui implemente un pipeline complet de Data Science en 5 phases : nettoyage des donnees, analyse exploratoire, analyse multivariee, modeles ML de base et ML avance (tuning et explicabilite).
 
@@ -186,8 +186,6 @@ uv run streamlit run src.app.streamlit_app.py
 L'interface est accessible sur `http://localhost:8501`. La sidebar permet de naviguer entre les phases et de configurer les parametres de generation (seed, nombre d'observations).
 
 ## Docker
-
-Docker permet de partager le projet avec un environnement identique, sans installer Python ni les dépendances.
 
 ### Prerequis
 
