@@ -1,0 +1,29 @@
+[project]
+name = "fastapi-ml-app"
+version = "0.1.0"
+description = "A FastAPI application with pandas and scikit-learn"
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi",
+    "uvicorn",
+    "pandas",
+    "scikit-learn",
+    "matplotlib>=3.10.8",
+    "statsmodels>=0.14.6",
+    "seaborn>=0.13.2",
+    "plotly>=6.5.2",
+    "pytest>=9.0.2",
+    "requests>=2.32.5",
+    "nbformat>=5.10.4",
+    "streamlit>=1.45.0",
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[dependency-groups]
+dev = [
+    "httpx>=0.28.1",
+    "pytest>=9.0.2",
+]
